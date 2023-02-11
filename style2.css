@@ -95,6 +95,7 @@
 
 .Green {
     color: #68B984;
+    margin-left: 70px;
 }
 
 .icon {
@@ -102,7 +103,29 @@
     font-size: 8em;
 }
 
-h1 {
-    text-align: center;
-    margin: 35px 0 20px 0 !important;
-  }
+.row {
+    margin-left: 50px;
+}
+
+.btn{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+select {
+    margin-bottom: 10px;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+h1{
+    margin-left: 70px;
+}
+
+h2 {
+    margin-left: 30px;
+}
