@@ -326,6 +326,10 @@ section{
     .main-content h3{
         font-size: 1.4em;
     }
+
+    .btn {
+        margin-left: 120px;
+    }
 }
 
 @media (max-width: 300px) {
