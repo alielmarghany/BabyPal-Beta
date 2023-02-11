@@ -129,3 +129,126 @@ h1{
 h2 {
     margin-left: 30px;
 }
+
+@media (max-width: 641px) {
+    body{
+        font-size: 12px;
+    }
+
+    .container {
+        margin-top: 50px;
+        align-items: center;
+    }
+    
+    .Green {
+        color: #68B984;
+        margin-left: 10px;
+    }
+    
+    .icon {
+        color: #68B984;
+        font-size: 8em;
+    }
+    
+    .row {
+        margin-left: 5px;
+    }
+    
+    .btn{
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    
+    select {
+        margin-bottom: 10px;
+    }
+    
+    input {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    
+    h1{
+        margin-left: 30px;
+    }
+    
+    h2 {
+        margin-left: 20px;
+    }
+
+    .products-card {
+        background-color: #cbafba;
+        border: 5px solid #000016;
+        min-height: 14em;
+        width: 23em;
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 20px;
+        transition: 0.7s ease;
+    }
+
+}
+
+@media (max-width: 300px) {
+    body{
+        font-size: 8px;
+    }
+
+    .container {
+        margin-top: 50px;
+        align-items: center;
+        font-size: 10px;
+    }
+    
+    .Green {
+        color: #68B984;
+        margin-left: 12px;
+    }
+    
+    .icon {
+        color: #68B984;
+        font-size: 8em;
+    }
+    
+    .row {
+        margin-left: 5px;
+    }
+    
+    .btn{
+        margin-left: 10px;
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+    
+    select {
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    
+    input {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    
+    h1{
+        margin-left: 30px;
+    }
+    
+    h2 {
+        margin-left: 20px;
+    }
+
+    .products-card {
+        background-color: #cbafba;
+        border: 5px solid #000016;
+        min-height: 14em;
+        width: 23em;
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 20px;
+        transition: 0.7s ease;
+    }
+}
