@@ -137,6 +137,8 @@ h2 {
 
     .container {
         margin-top: 50px;
+Display: flex;
+Justify-content: space-between;
         align-items: center;
     }
     
